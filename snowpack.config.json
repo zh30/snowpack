@@ -1,5 +1,11 @@
 {
   "extends": "@snowpack/app-scripts-react",
   "scripts": {},
-  "plugins": []
+  "plugins": [],
+  "devOptions": {
+    "out": "docs"
+  },
+  "buildOptions": {
+    "baseUrl": "https://snowpack.zhanghe.cool/"
+  }
 }
