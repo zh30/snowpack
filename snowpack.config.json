@@ -1,6 +1,8 @@
 {
   "extends": "@snowpack/app-scripts-react",
-  "scripts": {},
+  "scripts": {
+    "mount:src": "mount src --to /src"
+  },
   "plugins": [],
   "devOptions": {
     "out": "docs"
